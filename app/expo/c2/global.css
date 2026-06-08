@@ -1,0 +1,116 @@
+:root {
+  --color-celeste: #91e0fc;
+  --color-blanco: #ffffff;
+  --color-celeste2: #b4eafdff;
+  --color-negro: #000000;
+  --color-negro2: #9a9b9b;
+  --color-caja1: #c2f5f4;
+  --color-caja2: #c4f7d4;
+  --color-fondo: #F8F7F4;
+  
+}
+body {
+  background: var(--color-fondo);
+  color: var(--color-negro);
+}
+
+.contendor {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.titulo {
+  color: #3bb3df;
+  text-align: center;
+  font-weight: bold;
+  /*text-box: 1px 2px 2px 1px var(--color-blanco);*/
+  font-size: 30px;
+  /*background: var(--color-celeste2);*/
+  /*border: 1px solid var(--color-celeste);*/
+  /*border-radius: 30px;*/
+  padding: 5px 10px;
+  margin: 60px;
+  text-shadow: 2px 7px 10px var(--color-celeste);
+}
+
+.contenedor-multimedia {
+  /*padding: 20px 10px;*/
+  /*primer parámetro se separada de la caga*/
+  /*de ariba y la de avago y el senfundo*/
+  /*parámetro la derecha y izquierda un espacio*/
+  display: grid;
+  /*grid-template-columns: 1fr;*/
+  gap: 24px;
+  margin: 0px 0;
+}
+
+.imagen img {
+  margin: 0 auto;
+  border-radius: 30px /*solid var(--color-celeste)*/;
+  border: 3px solid var(--color-celeste);
+  box-shadow: 2px 4px 20px 3px var(--color-negro2);
+  /*padding-block: 20px 10px;*/
+  width: 100%;
+  height: auto;
+}
+
+.video {
+  margin: 0 auto;
+  border-radius: 30px /*solid var(--color-celeste)*/;
+  border: 3px solid var(--color-celeste);
+  box-shadow: 2px 4px 20px 3px var(--color-negro2);
+  /*padding-block: 20px 10px;*/
+  width: 100%;
+  height: auto;
+}
+
+.cajas {
+  padding: 20px 10px; 
+  /*primer parámetro se separada de la caga*/
+  /*de ariba y la de avago y el senfundo*/
+  /*parámetro la derecha y izquierda un espacio*/
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+/* Movil */
+/*@media (min-width: 768px) {
+  .contenedor-multimedia {
+    grid-template-columns: 1fr;
+  }
+}*/
+/* PC */
+@media (min-width: 769px) {
+  .cajas{
+    grid-template-columns: 1fr 1fr;   /* dos columnas en tablets y arriba */
+  }
+  .contenedor-multimedia {
+    grid-template-columns: 1fr 1fr;  
+  }
+}
+.caja1 {
+  background-color: var(--color-caja1);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 1px 3px 4px 5px var(--color-caja1);
+  display: block;
+}
+.caja2 {
+  background-color: var(--color-caja2);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 1px 3px 4px 5px var(--color-caja2);
+  display: block;
+}
+
+.titulo-h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+}
+.parafo {
+  font-size: 15px;
+  font-style: italic;
+}

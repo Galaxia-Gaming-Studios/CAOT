@@ -1,0 +1,24 @@
+import Image from 'next/image'
+//import "./../style.css"
+interface Props {
+  title: string;
+  img?: string;
+}
+
+function box1({title}: Props) {
+  return (
+    <div className="box">
+        <Image
+          className="dark:invert"
+          src="/animals/jaguar_1.jpg"
+          alt="Jaguar Img"
+          width={260}
+          height={260}
+          priority
+        />
+        <p className="title">{title}</p>
+    </div>
+  )
+}
+
+export default box1;

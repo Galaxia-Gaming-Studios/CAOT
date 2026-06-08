@@ -1,0 +1,11 @@
+import Box from './components/box';
+import "./style.css"
+function page() {
+  return (
+    <div>
+      <Box title={"Hello Good Morning Ticher And Classmates"}/>
+    </div>
+  )
+}
+
+export default page;

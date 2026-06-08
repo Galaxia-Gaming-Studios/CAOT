@@ -1,0 +1,97 @@
+:root {
+    --color-naranja-claro: #EDB18C;
+    --color-verde-lima:  #ECFCCB;
+    --color-verde-lima2: #84CC16;
+    --color-celeste-claro: #DFF6FF;
+    --color-celeste-claro2: #38BDF8;
+    --color-rojo-claro: #FEE2E2;
+    --color-rojo-claro2: #F87171;
+    --color-gris-1: #9d9d9d;
+    --color-blanco-1: #FBFCFC;
+}
+   * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+    body {
+     padding: 10px;
+     background-color: var(--color-blanco-1);
+}
+   .contenedor-principal {
+    text-align: center;
+    border: 5px solid var(--color-gris-1);
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+   .contenedor-caja {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     
+}
+   .caja {
+     /*border: 1px solid var(--color-naranja-claro);*/
+     border-radius: 20px;
+     padding: 10px;
+     box-shadow: 1px 2px 5px 0px var(--color-gris-1); /*Y, X, desenfoque grosor*/
+     margin-bottom: 20px;
+}
+   img {
+      border-radius: 20px;
+      /*border: 0 solid #fff;*/
+}
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+}
+    .title {
+      font-size: 1.6rem;
+      font-weight: 700;
+}
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+}
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+}
+   .grupo-derecha,
+   .grupo-izquierda,
+   .grupo-medio {
+     margin-bottom: 50px;
+}
+   .grupo-derecha .caja {
+     border-left: 5px solid var(--color-celeste-claro2);
+     background-color: var(--color-celeste-claro);
+}
+    .grupo-medio .caja {
+     border-left: 5px solid var(--color-verde-lima2);
+     background-color: var(--color-verde-lima);
+}
+    .grupo-izquierda .caja {
+     border-left: 5px solid var(--color-rojo-claro2);
+     background-color: var(--color-rojo-claro);
+}
+@media (min-width: 768px) {
+
+   .contenedor-principal {
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+     align-items: stretch;
+}
+    .grupo-izquierda,
+    .grupo-medio,
+    .grupo-derecha {
+      flex: 1;
+      margin-bottom: 0;
+}
+     .caja {
+      padding: 25px;
+}
+
+}

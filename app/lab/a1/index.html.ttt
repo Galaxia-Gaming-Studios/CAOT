@@ -1,0 +1,64 @@
+
+<div class="fondo">
+  <h1>Texto de fondo que se ve borroso</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sigue scrolleando para ver el efecto.</p>
+  
+  <div class="caja-glass">
+    <h2>Soy una caja de cristal</h2>
+    <p>Al pasar sobre el texto de atrás, se ve borroso</p>
+  </div>
+  <h1>Texto de fondo que se ve borroso</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sigue scrolleando para ver el efecto.</p>
+    <h1>Texto de fondo que se ve borroso</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sigue scrolleando para ver el efecto.</p>
+    <h1>Texto de fondo que se ve borroso</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sigue scrolleando para ver el efecto.</p>
+    <h1>Texto de fondo que se ve borroso</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sigue scrolleando para ver el efecto.</p>
+    <h1>Texto de fondo que se ve borroso</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sigue scrolleando para ver el efecto.</p>
+  
+</div>
+
+<style>
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.fondo {
+  min-height: 200vh; /* Para poder hacer scroll */
+  padding: 40px;
+  /* Fondo con texto/imagen lo que quieras */
+  background: url('https://picsum.photos/1200/800') center/cover fixed;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.caja-glass {
+  position: none; /* Para que se quede fija al hacer scroll */
+  top: 50px;
+  margin: 100px auto;
+  max-width: 400px;
+  padding: 30px;
+  
+  /* === EL EFECTO GLASS === */
+  background: rgba(255, 255, 255, 0.15); /* Fondo semitransparente */
+  backdrop-filter: blur(12px); /* Esto difumina lo que hay ATRÁS */
+  -webkit-backdrop-filter: blur(12px); /* Para Safari/iOS */
+  
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+</style>
+<script>
+window.addEventListener('scroll', () => {
+  const caja = document.querySelector('.caja-glass');
+  if (window.scrollY > 50) {
+    caja.classList.add('scrolled');
+  } else {
+    caja.classList.remove('scrolled');
+  }
+});
+</script>

@@ -1,0 +1,57 @@
+:root {
+  --color-negro: #0000;
+}
+body {
+  margin: 0;
+  height: 100vh;
+
+  /* Fallback (color si nada carga) */
+  background-color: #000;
+
+  /* Imagen local + fallback a URL */
+  /*background-image: */
+    /*url("/images/fondo.png"),*/
+    /*url("/images/fondo1.png");*/
+
+  /* Centrar la imagen */
+  background-position: center;
+
+  /* Que cubra toda la pantalla */
+  background-size: cover;
+
+  /* Que no se repita */
+  background-repeat: no-repeat;
+  
+  /* Si quieres que la imagen quede fija (efecto elegante):*/
+  background-attachment: fixed;
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+  body {
+    background-image: 
+      url("/images/movil.png"),
+      url("/images/fondo1.png");
+  }
+}
+
+/* PC / pantallas grandes */
+@media (min-width: 769px) {
+  body {
+    background-image: 
+      url("/images/pc.png"),
+      url("/images/movil.png");
+  }
+}
+
+.imagen {
+  margin: 0 auto;
+  width: 85%;
+  height: auto;
+  border-radius: 50px;
+  
+}
+
+.contenedor {
+  
+}

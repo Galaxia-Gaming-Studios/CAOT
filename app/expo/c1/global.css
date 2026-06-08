@@ -1,0 +1,85 @@
+/* ====================== ESTILOS DEL DIAGRAMA RESPIRATORIO ====================== */
+
+.contenedor-principal {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.titulo-principal {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #1e40af;           /* azul oscuro bonito */
+}
+
+.contenedor-imagen {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 
+              0 8px 10px -6px rgb(0 0 0 / 0.1);
+  /*box-shadow: 0 20px 20px -5px #48a3e5, 0 8px 10px -6px #48a3e5;*/
+  margin-bottom: 40px; /*espacio para el siguiente componente en la parte de abajo*/
+}
+
+.imagen-diagrama {
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.imagen-diagrama:hover {
+  transform: scale(1.05);
+}
+
+/* Contenedor de las dos columnas */
+.contenedor-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .contenedor-info {
+    grid-template-columns: 1fr 1fr;   /* dos columnas en tablets y arriba */
+  }
+}
+
+/* Cajas de información */
+.caja-azul {
+  background-color: #eff6ff;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.caja-verde {
+  background-color: #f0fdf4;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.subtitulo {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.lista-partes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.texto-funcion {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #374151;
+}

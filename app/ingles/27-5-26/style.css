@@ -1,0 +1,30 @@
+:root {
+   --color-verde: #c9edc5;
+   --color-celeste: #b6d9eb;
+   --color-negro: #000;
+   --color-amarillo: #999;
+}
+
+
+body {
+   margin: 10px;
+}
+.title {
+   font-size: 25px;
+   /*margin: 5px;*/
+   text-align: center;
+   font-family: font-sans;
+   padding: 5px;
+   
+}
+.box {
+   background-color: var(--color-celeste);
+   border-radius: 30px;
+   border: 2px solid var(--color-negro);
+   padding: 10px;
+   display: flex;
+   /*margin: 10px;*/
+}
+.box img {
+   border-radius: 15px;
+}

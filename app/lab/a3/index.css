@@ -135,7 +135,7 @@ body {
 }
 .questionTitle {
   font-family: sans-serif;
-  font-size: var(-title);
+  font-size: var(--title);
   font-weight: var(--weigt-title);
 }
 .questionText {

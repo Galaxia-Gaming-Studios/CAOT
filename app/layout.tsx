@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from 'react';
 import "./globals.css";
+import "./font/fonts.css";
 
 export const metadata: Metadata = {
   title: "Galaxia-Gaming-Studios - Josue Dev",

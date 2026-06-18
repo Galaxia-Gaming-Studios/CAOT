@@ -1,0 +1,183 @@
+:root {
+  
+  /* Fondo principal */
+  --background: #F8FAFC;
+
+  /* Colores principales */
+  --primary: #1E3A8A;
+  --primary-light: #DBEAFE;
+  --primary-dark: #172554;
+
+  /* Colores secundarios */
+  --secondary: #60A5FA;
+  --secondary-light: #BFDBFE;
+
+  /* Tarjetas */
+  --card: #FFFFFF;
+  --card-info: #DBEAFE;
+  --card-question: #EFF6FF;
+
+  /* Bordes */
+  --border: #93C5FD;
+  --border-light: #D1D5DB;
+
+  /* Texto */
+  --text-primary: #1E293B;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+
+  /* Sombras */
+  --shadow: rgba(15, 23, 42, 0.08);
+
+  /* Estados */
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+
+  /* Radios */
+  --radius: 16px;
+  
+  
+  --color-naranjado: #ffc466;
+  --color-naranjado-50: #fff9ed;
+  --color-naranjado-100: #fff1d4;
+  --color-celeste-300: #ffc466;
+  --color-naranjado-700: #c55309;
+  --color-celeste: #d8f6fc;
+  --color-celeste-50: #edfcfe;
+  --color-celeste-100: #d8f6fc;
+  --color-celeste-300: #6fd7f1;
+  --color-celeste-700: #156789;
+  --color-gris-suave: #dbdbdb;
+  --color-gris-suave-50: #fafafa;
+  --color-gris-suave-100: #f5f5f5;
+  --color-celeste-300: #dbdbdb;
+  --color-celeste-700: #404040;
+  --color-fondo: #F8FAFC;
+  --title: clamp(1.7rem, 6vw, 2rem);
+  --text: clamp(1rem, 5vw, 1.5rem);
+  --text2: clamp(0.5rem, 5vw, 1rem);
+  --weigt-title: 800;
+}
+
+body {
+  margin: 3px;
+  background-color: var(--background);
+}
+/*Components title.tsx*/
+.title-card {
+  background: linear-gradient(135deg, var(--color-naranjado), var(--color-celeste));/*degradado*/
+  padding: 30px;
+  font-family: roboto;
+  text-align: center;
+  
+}
+.title {
+  font-family: monoton;
+  text-weight: 500;
+  font-size: var(--title); /*Minimo, Porcentaje de ancho de pantalla, maximo*/
+}
+.title_text {
+  /*border: 2px solid var(--color-blanco-gris-suave);*/
+  /*border-radius: 20px;*/
+  /*font-size: 50%;*/
+  font-size: var(--text);
+  font-family: sans-serif;
+}
+/*End Components title.tsx*/
+
+
+/*Components card.tsx*/
+
+.card_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  /*flex-wrap: wrap;*/
+  /*flex-direction: row;*/
+  gap: 1rem;
+}
+
+.card_box {
+  /*flex-direction: column;*/
+  /*flex: 1;*/
+  /*justify-content: center;*/
+  text-align: center;
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  padding: 16px;
+  background-color: var(--card);
+}
+.card_title {
+  font-family: sans-serif;
+  font-size: var(-title);
+  font-weight: var(--weigt-title)
+}
+.card_text {
+  font-size: var(-text);
+}
+
+/*End Components card.tsx*/
+
+
+/*Components Card2.tsx*/
+.question_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.questionBox {
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  padding: 16px;
+  background-color: var(--card-question);
+  
+}
+.questionTitle {
+  font-family: sans-serif;
+  font-size: var(-title);
+  font-weight: var(--weigt-title);
+}
+.questionText {
+  font-size: var(-text);
+}
+.questionDy {
+  font-size: 10px;
+}
+/*End Components Card2.tsx*/
+
+/*Components Card3.tsx*/
+.end_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.endBox {
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  padding: 16px;
+  background-color: var(--card-info);
+  
+}
+.endTitle {
+  font-family: sans-serif;
+  font-size: var(-title);
+  font-weight: var(--weigt-title);
+}
+.endText {
+  font-size: var(-text);
+}
+
+/*End Components Card2.tsx*/
+/*Medidas*/
+
+/*tables pc y tv*/
+@media (min-width: 768px) {
+  .card_container, .question_container, .end_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*End Medidas*/
+

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "sans_serif"; /*sans-serif*/
+  src: url("./Sans_Serif/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900; /* Esto le dice al navegador: "este archivo cubre del 100 al 900" */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sans_serif"; /*sans-serif*/
+  src: url("./Sans_Serif/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900; /* Esto le dice al navegador: "este archivo cubre del 100 al 900" */
+  font-style: italic; /*type italic*/
+}
+
+@font-face {
+  font-family: "minecraft";
+  src: url("./Mojangles/Mojangles.ttf") format("TrueType");
+  font-style: normal;
+}
+@font-face {
+  font-family: "monoton";
+  src: url("./Monoton/Monoton-Regular.ttf") format("TrueType");
+  fonts-style: nomal;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("./Montserrat/Montserrat-VariableFont_wght.ttf") format("TrueType");
+  font-weight: 100 900;
+}

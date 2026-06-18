@@ -139,7 +139,7 @@ body {
   font-weight: var(--weigt-title);
 }
 .questionText {
-  font-size: var(-text);
+  font-size: var(--text);
 }
 .questionDy {
   font-size: 10px;

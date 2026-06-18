@@ -166,7 +166,7 @@ body {
   font-weight: var(--weigt-title);
 }
 .endText {
-  font-size: var(-text);
+  font-size: var(--text);
 }
 
 /*End Components Card2.tsx*/

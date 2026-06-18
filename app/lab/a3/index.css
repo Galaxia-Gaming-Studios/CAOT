@@ -109,7 +109,7 @@ body {
 }
 .card_title {
   font-family: sans-serif;
-  font-size: var(-title);
+  font-size: var(--title);
   font-weight: var(--weigt-title)
 }
 .card_text {

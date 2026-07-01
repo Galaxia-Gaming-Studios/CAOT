@@ -21,7 +21,7 @@ const myCard = [
   },
   {
     title: "Objetivo general ",
-    text: "Analizar los factores políticos que generan desconfianza en la población joven de nuestro país, con el propósito de de conocer por qué motivo está población sen interesa menos en estos temas, mediante una entrevista a: null faltante session",
+    text: "Analizar los factores políticos que generan desconfianza en la población joven de nuestro país, con el propósito de de conocer por qué motivo está población sen interesa menos en estos temas, mediante una entrevista a la sesión 9-1",
     img: "/lab-a3/img2.png"
   },
   {

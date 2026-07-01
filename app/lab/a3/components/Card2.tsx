@@ -1,10 +1,12 @@
 //tsrfce
 /*import React from 'react'*/
+import Image from "next/image";
 
 interface CardData {
   question: string;
-  response: string[]
+  response: string[];
   dy: string;
+  img: string;
 }
 interface Props {
   cards2: CardData[];
@@ -17,6 +19,17 @@ function Card2(cardsProps: Props) {
       {cardsProps.cards2.map((cardsProps, index) => (
 
        <div className="questionBox" key={index}>
+         { cardsProps.img && (
+         <Image
+          className="img2"
+          src={cardsProps.img}
+          alt="Imagen"
+          width={200}
+          height={0}
+          priority
+        />
+       )}
+         
          <h1 className="questionTitle">{cardsProps.question}</h1>
          
          {cardsProps.response.map((response, index) => (
@@ -26,7 +39,7 @@ function Card2(cardsProps: Props) {
          ))}
          
          
-         <h3 className="questionDy">{cardsProps.dy}</h3>
+         {/*<h3 className="questionDy">{cardsProps.dy}</h3>*/}
        </div>
       
       ))}

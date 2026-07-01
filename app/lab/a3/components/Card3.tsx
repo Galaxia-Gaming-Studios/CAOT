@@ -1,9 +1,11 @@
 //tsrfce
 /*import React from 'react'*/
+import Image from "next/image";
 
 interface CardData {
   endTitle: string;
   endText: string[];
+  img: string;
   
 }
 interface Props {
@@ -17,6 +19,18 @@ function Card3(cardsProps: Props) {
       {cardsProps.cards3.map((cardsProps, index) => (
 
        <div className="endBox" key={index}>
+
+         {cardsProps.img && (
+         <Image
+          className="img2"
+          src={cardsProps.img}
+          alt="imagen"
+          width={200}
+          height={0}
+          priority
+        />
+         )}
+         
          <h1 className="endTitle">{cardsProps.endTitle}</h1>
          
       {cardsProps.endText.map((response, index) => (

@@ -34,7 +34,7 @@ function Card3(cardsProps: Props) {
          <h1 className="endTitle">{cardsProps.endTitle}</h1>
          
       {cardsProps.endText.map((response, index) => (
-         <p className="endText" key={index}>{cardsProps.endText}</p>
+         <p className="endText" key={index}>{response}</p>
          ))}
          
         

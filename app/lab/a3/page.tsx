@@ -16,32 +16,32 @@ const data = {
 const myCard = [
   {
     title: "Tema",
-    text: "Desconfianza de la población joven en las instituciones políticas.",
+    text: "Desconfianza De La Población Joven En Las Instituciones Políticas.",
     img: "/lab-a3/img1.png"
   },
   {
-    title: "Objetivo general ",
-    text: "Analizar los factores políticos que generan desconfianza en la población joven de nuestro país, con el propósito de de conocer por qué motivo está población sen interesa menos en estos temas, mediante una entrevista a la sesión 9-1",
+    title: "Objetivo General ",
+    text: "Analizar los factores políticos que generan desconfianza en la población joven de nuestro país, con el propósito de de conocer por qué motivo está población se interesa menos en estos temas, mediante una entrevista a la sessión 9-1",
     img: "/lab-a3/img2.png"
   },
   {
-    title: "Objetivo específico ",
-    text: "1. Identicar el grado de desinterés de los joven a instrucciones políticas \n2. Investigar porque los jóvenes no le dan mucha importancia y omiten ver videos discursos oficiales de las instituciones políticas \n3. Determinar las causas del desinterés de la población joven",
+    title: "Objetivo Específico ",
+    text: "1. Identicar el grado de desinterés de los joven a instrucciones políticas. \n2. Investigar porque los jóvenes no le dan mucha importancia y omiten ver videos discursos oficiales de las instituciones políticas. \n3. Determinar las causas del desinterés de la población joven.",
     img: "/lab-a3/img3.png"
   },
   {
-    title: "Descripción del tema del Proyecto",
+    title: "Descripción Del Tema Del Proyecto",
     text: "La desconfianza de la población joven en las instituciones políticas ocurre cuando los jóvenes pierden la confianza en el gobierno, los partidos políticos y otras entidades públicas. Esto puede deberse a la corrupción, la falta de transparencia y el incumplimiento de promesas, provocando menor participación en la vida política y democrática.",
     img: "/lab-a3/img4.png"
   },
   {
-    title: "Objetivo o meta del proyecto",
-    text: "La desconfianza de los Jovenes de la instituciónes políticas es un problema serio porque los jóvenes pierden interés en las instituciones políticas porque no apoyan sus intereses esta situación puede provocar desinterés en la participación ciudadana, baja asistencia a las votaciones y poca involucración en actividades democráticas. Entre las causas más comunes se encuentran los casos de corrupción",
+    title: "Objetivo O Meta Del Proyecto",
+    text: "La desconfianza de los Jovenes de la instituciónes políticas es un problema serio porque los jóvenes pierden interés en las instituciones políticas porque no apoyan sus intereses esta situación puede provocar desinterés en la participación ciudadana, baja asistencia a las votaciones y poca involucración en actividades democráticas. Entre las causas más comunes se encuentran los casos de corrupción.",
     img: "/lab-a3/img5.png"
   },
   {
     title: "Justificación",
-    text: "Los jóvenes han perdído la desconfianza en las instituciones políticas esto afecta a la sociedad y la participación juvenil y luego pueden aver partidos corruptos por falta de interés de los jóvenes ahí que hacer algo para que tengan interés la participación juvenil es fundamental para el desarrollo democrático de un país soberano ",
+    text: "Los jóvenes han perdído la confianza en las instituciones políticas esto afecta a la sociedad y la participación juvenil y luego pueden aver partidos corruptos por falta de interés de los jóvenes ahí que hacer algo para que tengan interés la participación juvenil es fundamental para el desarrollo democrático de un país soberano ",
     img: "/lab-a3/img6.png"
   }
 ];
@@ -68,7 +68,7 @@ const myCard2 = [
   {
     question: "3. ¿Por qué piensas que muchos jóvenes no se interesan en la política?",
     response: [
-      "Porque lo veo muy aburrido o no ale llama mucha la atención porque las redes sociales les interesa más que la política"
+      "Porque lo veo muy aburrido o no le llama mucha la atención porque las redes sociales les interesa más que la política"
     
     ],
     dy: "Orlando",
@@ -107,15 +107,15 @@ const myCard2 = [
     {
       endTitle: "Dificultades",
       endText: [
-        "Encontrar información actualizada y confiable sobre la opinión de los jóvenes.",
-        "Analizar diferentes puntos de vista sin sesgos.",
+        "Encontrar información actualizada y confiable sobre la opinión de los jóvenes.\n",
+        "Analizar diferentes puntos de vista.",
       ],
       img: "/lab-a3/img13.png"
     },
     {
       endTitle: "Retos Para El Futuro",
       endText: [
-        "Recuperar la confianza de los jóvenes en las instituciones políticas.",
+        "Recuperar la confianza de los jóvenes en las instituciones políticas. \n",
         "Crear espacios donde los jóvenes puedan expresar sus opiniones y ser escuchados."
       ],
       img: "/lab-a3/img14.png"

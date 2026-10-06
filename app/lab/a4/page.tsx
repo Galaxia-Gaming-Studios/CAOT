@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import data from './Data.json'
-import './style.css';
+import './style.css'
 
 
 export default function page() {

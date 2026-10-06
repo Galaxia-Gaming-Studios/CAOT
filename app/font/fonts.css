@@ -26,4 +26,33 @@
   font-family: "montserrat";
   src: url("./Montserrat/Montserrat-VariableFont_wght.ttf") format("TrueType");
   font-weight: 100 900;
+  font-style: normal;
+}
+/*@font-face {
+  font-family: "montserrat";
+  src: url("./Montserrat/Montserrat-italic-VariableFont_wght.ttf") format("TrueType");
+  font-weight: 100 900;
+  font-style: italic;
+}*/
+@font-face {
+  font-family: "noto_color_emoji";
+  src: url("./Noto_Color_Emoji/NotoColorEmoji-Regular.ttf") format("TrueType");
+  font-style: normal;
+}
+@font-face {
+  font-family: "orbitron";
+  src: url("./Orbitron/Orbitron-VariableFont_wght.ttf") format("TrueType");
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("./Roboto/Roboto-VariableFont_wdth,wght.ttf") format("TrueType");
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("./Roboto/Roboto-VariableFont_wdth,wght.ttf") format("TrueType");
+  font-weight: 100 900;
+  font-style: italic;
 }

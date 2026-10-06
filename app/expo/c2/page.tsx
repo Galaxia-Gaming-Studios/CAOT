@@ -55,7 +55,9 @@ export default function DiagramaRespiratorio() {
             </div>
           </div>
       </div>
-      
+      <div className="box_hsl">
+      <h1>Hola HSL</h1>
+      </div>
     </div>
   );
 }

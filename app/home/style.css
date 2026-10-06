@@ -1,0 +1,28 @@
+:root {
+  --color-primario-primero: hsl(200,50%,75%);
+  --color-fondo: hsl(0,0%,5%);
+  --color-border: hsla(0,0%,40%,0.5);
+  --color-box: hsla(0,0%,0%,0.1)
+}
+/*@media (prefers-color-scheme: dark) {
+  :root {
+  
+  }
+}*/
+body {
+  
+  color: var(--color-primario-primero);
+  margin: 12px;
+  align-content: center;
+  align-items: center;
+  background-color: var(--color-fondo);
+}
+
+.card_home {
+  margin-top: 1rem;
+  border: 3px solid var(--color-primario-primero);
+  border-radius: 16px;
+  box-shadow: 3px 3px 9px 1px var(--color-box);
+  padding: 1rem;
+  /*background-color: var(--color-primario-primero)*/
+}

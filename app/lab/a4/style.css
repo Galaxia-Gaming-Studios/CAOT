@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+  @apply m-5
+    bg-gradient-to-b
+    from-[hsl(40_0%_100%)]
+    via-[hsl(40_20%_90%)]
+    to-[hsl(0_20%_100%)];
+}
+
+div {
+  @apply mt-5 p-4 shadow-lg;
+}
+.banner,
+.card-img,
+.question,
+.concept,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6,
+.s7 {
+  @apply rounded-3xl;
+}
+h1 {
+  @apply text-lg font-bold;
+}
+
+p,
+li {
+  @apply text-base;
+}
+
+.card-img {
+  @apply grid grid-cols-2 gap-2;
+}
+
+.Image {
+  @apply w-full 
+         aspect-square
+         object-cover
+         rounded-xl
+         shadow-md 
+         shadow-black/20;
+}

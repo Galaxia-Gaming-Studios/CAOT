@@ -114,3 +114,9 @@ body {
   font-size: 15px;
   font-style: italic;
 }
+
+.box_hsl {
+  height: 300px;
+  width: 300px;
+  background-color: hsl(80,50%,69%);
+}

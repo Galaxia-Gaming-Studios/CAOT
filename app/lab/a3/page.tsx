@@ -15,7 +15,7 @@ const data = {
 
 const myCard = [
   {
-    title: "Tema",
+    title: "Tema 👋",
     text: "Desconfianza De La Población Joven En Las Instituciones Políticas.",
     img: "/lab-a3/img1.png"
   },

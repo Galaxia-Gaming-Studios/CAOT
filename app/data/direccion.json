@@ -1,0 +1,64 @@
+{
+  "routes": [
+    {
+      "id": 0,
+      "date": "2026-03-12",
+      "title": "ING Software 💻👨‍💻",
+      "text": "Todo de Software",
+      "category": "nada",
+      "address_base": "/software",
+      "buttons": [
+        {
+          "label": "Volcán casero 🎉", 
+          "date": "2026-06-8", 
+          "link": "/ciencia/volcan"
+        },
+        {
+          "label": "Sistema solar 👌", 
+          "date": "2026-06-8",
+          "link": "/ciencia/sistema-solar"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "date": "2026-03-12 😂",
+      "title": "Ciencia",
+      "text": "Todo de ciencias",
+      "category": "ciencias",
+      "address_base": "/cincias",
+      "buttons": [
+        {
+          "label": "Volcán casero 🎉", 
+          "date": "2026-06-8", 
+          "link": "/ciencia/volcan"
+        },
+        {
+          "label": "Sistema solar", 
+          "date": "2026-06-8",
+          "link": "/ciencia/sistema-solar"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2026-03-12 👋",
+      "title": "Ciencia",
+      "text": "Todo de ciencias",
+      "category": "ciencias",
+      "address_base": "/cincias",
+      "buttons": [
+        {
+          "label": "Volcán casero", 
+          "date": "2026-06-8", 
+          "link": "/ciencia/volcan"
+        },
+        {
+          "label": "Sistema solar", 
+          "date": "2026-06-8",
+          "link": "/ciencia/sistema-solar"
+        }
+      ]
+    }
+  ]
+}

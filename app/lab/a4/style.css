@@ -13,8 +13,10 @@ div {
 }
 .banner,
 .card-img,
+.card-title,
 .question,
 .concept,
+.card,
 .s2,
 .s3,
 .s4,
@@ -23,15 +25,21 @@ div {
 .s7 {
   @apply rounded-3xl;
 }
-h1 {
-  @apply text-lg font-bold;
+
+.banner {
+  @apply text-center text-xl font-["monoton"]
+}
+h2 {
+  @apply text-lg font-bold font-["montserrat"];
 }
 
 p,
 li {
   @apply text-base;
 }
-
+.card {
+  @apply grid grid-cols-2  gap-2;
+}
 .card-img {
   @apply grid grid-cols-2 gap-2;
 }
@@ -41,6 +49,6 @@ li {
          aspect-square
          object-cover
          rounded-xl
-         shadow-md 
+         shadow-md
          shadow-black/20;
 }
